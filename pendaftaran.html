@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Formulir contoh pendaftaran mahasiswa baru">
+  <title>Formulir Pendaftaran | Aplikasi Pendaftaran Mahasiswa</title>
+</head>
+<body>
+  <header>
+    <h1>Aplikasi Pendaftaran Mahasiswa</h1>
+    <nav aria-label="Navigasi utama">
+      <a href="index.html">Daftar pendaftar</a> |
+      <a href="pendaftaran.html" aria-current="page">Formulir pendaftaran</a> |
+      <a href="detail-pendaftaran.html">Detail pendaftaran</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>Formulir pendaftaran mahasiswa baru</h2>
+      <p>Ini adalah contoh struktur HTML. Formulir belum menyimpan data karena belum ada backend. Jangan masukkan data pribadi asli.</p>
+      <form action="#" method="post">
+        <p><label for="nama">Nama lengkap</label><br><input id="nama" name="nama" type="text" required></p>
+        <p><label for="email">Alamat email</label><br><input id="email" name="email" type="email" required></p>
+        <p><label for="telepon">Nomor telepon</label><br><input id="telepon" name="telepon" type="tel" required></p>
+        <p><label for="asal-sekolah">Asal sekolah</label><br><input id="asal-sekolah" name="asal_sekolah" type="text" required></p>
+        <p><label for="prodi">Pilihan program studi</label><br>
+          <select id="prodi" name="prodi" required>
+            <option value="">Pilih program studi</option>
+            <option value="informatika">Informatika</option>
+            <option value="sistem-informasi">Sistem Informasi</option>
+            <option value="manajemen">Manajemen</option>
+          </select>
+        </p>
+        <p><label for="jalur">Jalur pendaftaran</label><br>
+          <select id="jalur" name="jalur" required>
+            <option value="">Pilih jalur</option>
+            <option value="reguler">Reguler</option>
+            <option value="prestasi">Prestasi</option>
+          </select>
+        </p>
+        <p><label for="alamat">Alamat domisili</label><br><textarea id="alamat" name="alamat" rows="4" cols="40" required></textarea></p>
+        <p><button type="submit">Kirim formulir (contoh)</button> <button type="reset">Kosongkan</button></p>
+      </form>
+      <p><a href="index.html">Kembali ke daftar pendaftar</a></p>
+    </article>
+  </main>
+  <footer><p>Kemas Faris Rahadiansyah — 103022300040 | Tugas Webpro: struktur HTML</p></footer>
+</body>
+</html>
